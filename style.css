@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #0f0f0f;
+    }
+    
+    header {
+        margin: 30px;
+        padding: 50px;
+        width: 90%;
+        border-radius: 20px;
+        height: 90px;
+        background-color: #1d1d1d;
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        line-height: 1.5em;
+        font-size: 1.3em;
+        border-radius: 10px;
+    }
+    
+    main > #info {
+        width: 90vw;
+        text-align: left;
+        font-size: 0.8em;
+    }
+    
+    section {
+        background-color: #1b1b1b;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /*Seção Dev*/
+    
+    section#dev > div#text {
+        margin-bottom: 30px;
+    }
+    
+    section#dev > div > p {
+        margin-bottom: 30px;
+    }
+    
+    section#dev > a {
+        background-color: #054c4e;
+        color: aliceblue;
+        padding: 10px;
+        width: 130px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+    section#dev > a:hover {
+        background-color: #00949A;
+        transition-duration: 0.5s;
+    }
+    
+    div > span#logo {
+        background-image: linear-gradient(to bottom, #680e0e, #00949A);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+    
+    /*Seção Informações*/
+    
+    section#info {
+        position: relative;
+    }
+    
+    section#info > img {
+        width: 7rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    section#info > div {
+        border-left: 2px solid aliceblue;
+        padding: 10px;
+    }
+}
+
+/*Para telas maiores*/
+
+@media screen and (min-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #0f0f0f;
+    }
+    
+    header {
+        margin: 30px;
+        padding: 50px;
+        width: 90%;
+        border-radius: 20px;
+        height: 90px;
+        background-color: #1d1d1d;
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        line-height: 1.5em;
+        font-size: 1.3em;
+        border-radius: 10px;
+    }
+    
+    main > #info {
+        width: 90vw;
+        text-align: left;
+        font-size: 0.8em;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /*Seção Dev*/
+    
+    section#dev > div#text {
+        margin-bottom: 30px;
+    }
+    
+    section#dev > div > p {
+        margin-bottom: 30px;
+    }
+    
+    section#dev > a {
+        background-color: #054c4e;
+        color: aliceblue;
+        padding: 10px;
+        width: 130px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+    section#dev > a:hover {
+        background-color: #00949A;
+        transition-duration: 0.5s;
+    }
+    
+    div > span#logo {
+        background-image: linear-gradient(to bottom, #680e0e, #00949A);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+    
+    /*Seção Informações*/
+    
+    section#info {
+        position: relative;
+    }
+    
+    section#info > img {
+        width: 7rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    section#info > div {
+        border-left: 2px solid aliceblue;
+        padding: 10px;
+    }
+}
