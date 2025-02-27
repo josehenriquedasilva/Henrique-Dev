@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=menu"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.style.css">
 </head>
 <body>
     <header>
         <nav id="menu">
-            <ul>
+            <span id="caixa" onclick="clickmenu()" class="material-symbols-outlined">
+                menu
+                </span>
+            <ul id="itens">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Projetos</a>
+                <a href="#">Contato</a>
+            </ul>
+        </nav>
+        <nav id="menu2">
+            <ul id="itens2">
                 <a href="#">Home</a>
                 <a href="#">Sobre</a>
                 <a href="#">Projetos</a>
@@ -21,7 +34,7 @@
         <section id="dev">
             <img src="imagens/JH.png" id="dev" alt="">
             <div id="text">
-                <p>josé Henrique</p>
+                <p>Olá, sou Henrique</p>
                 <span id="logo">Desenvolvedor</span>
                 <br>
                 <span id="logo">Full-Stack</span>
@@ -36,9 +49,8 @@
                 <h2>Sou um Desenvolvedor</h2>
                 <h2>Full-Stack</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam esse numquam alias odio nobis quasi minus quaerat vel distinctio possimus ad natus eum sunt, tempore earum dolor! Non, laborum totam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non facilis voluptatum molestias dolor, nobis earum eos soluta illo eum in, blanditiis eligendi aperiam enim architecto incidunt asperiores atque. Esse, doloremque!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non facilis voluptatum molestias dolor, nobis earum eos soluta illo eum in, blanditiis eligendi aperiam enim architecto incidunt asperiores atque. Esse, doloremque!</p>
             </div>
-            </p>
         </section>
         <section id="projetos">
             <h2>Projetos</h2>
@@ -62,4 +74,5 @@
         </section>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>

@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 
-
-@media screen and (max-width: 768px) {
     * {
         margin: 0;
         padding: 0;
@@ -17,14 +15,17 @@
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: space-between;
         gap: 30px;
         background-color: #0f0f0f;
     }
     
     header {
-        width: 93%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 90%;
         border-radius: 20px;
-        height: 90px;
         background-color: #1d1d1d;
     }
     
@@ -32,11 +33,13 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        align-items: center;
         line-height: 1.5em;
         font-size: 1.3em;
         border-radius: 10px;
+        width: 90%;
     }
-    
+
     main > #info {
         width: 90vw;
         text-align: left;
@@ -80,9 +83,42 @@
         background-color: #054c4e;
         transition-duration: 0.5s;
     }
+    
+    nav#menu span {
+        display: none;
+    }
+
+    #menu2 {
+        display: none;
+    }
+
+    #itens2 {
+        display: flex;
+        flex-direction: column;
+        width: 17vw;
+        border-radius: 10px;
+        background-color: #1d1d1d;
+    }
+
+    nav#menu2 > ul > a {
+        font-size: 1.05em;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    nav#menu2 > ul > a:hover {
+        background-color: #054c4e;
+        transition-duration: 0.5s;
+    }
+
 
     /*Seção Dev*/
 
+    section#dev {
+        width: 100%;
+    }
 
     section#dev > div#text {
         display: flex;
@@ -94,6 +130,7 @@
     section#dev > div > p {
         margin-bottom: 30px;
         font-size: 1.7em;
+        text-align: center;
         font-family: "Atkinson Hyperlegible Mono";
     }
     
@@ -125,21 +162,20 @@
     
     section#info {
         position: relative;
+        width: 100%;
+    }
+
+    #info h2 {
+        padding-right: 90px;
     }
     
     section#info > img {
-        width: 7rem;
+        width: 6rem;
         position: absolute;
         top: 0;
         right: 0;
     }
-    
-    section#info > div {
-        border-left: 2px solid aliceblue;
-        padding: 10px;
+
+    #info p {
+        border-top: 2px solid aliceblue;  
     }
-}
-
-
-/*Para telas maiores*/
-
