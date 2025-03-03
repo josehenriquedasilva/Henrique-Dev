@@ -20,7 +20,7 @@
         background-color: #0f0f0f;
     }
 
-    header, main, footer {
+    header, main {
         margin: auto;
         max-width: 1000px;
     }
@@ -44,6 +44,7 @@
         font-size: 1.3em;
         border-radius: 10px;
         width: 90%;
+        margin-bottom: 20px;
     }
 
     main > #info {
@@ -52,7 +53,7 @@
         font-size: 0.8em;
     }
     
-    section#dev, section#info, section#contato {
+    section#dev, section#info, section#dados {
         background-color: #1b1b1b;
         padding: 10px;
         border-radius: 20px;
@@ -209,6 +210,7 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        gap: 50px;
         padding-right: 15px;
         background-color: #1b1b1b;
         border-radius: 20px;
@@ -220,8 +222,10 @@
     }
 
     #projetos > div > section#text {
-        padding-left: 50px;
         max-width: 55vw;
+        display: flex;
+        gap: 7px;
+        flex-direction: column;
     }
 
     #text h3 {
@@ -241,4 +245,49 @@
         border-radius: 20px;
         font-size: 0.7em;
         text-decoration: none;
+    }
+
+    section#text > a:hover {
+        background-color: #00949A;
+        transition-duration: 0.5s;
+        transform: translate(-2px, -2px);
+    }
+
+
+    /*Seção Contato*/
+
+    footer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #1b1b1b;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    section#informacoes {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section#dados {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        width: 100%;
+        height: 20vh;
+    }
+
+    section#dados > div#contato, div#redes {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 25vw;
+    }
+
+    section#dados #linha {
+        border: 1px solid aliceblue;
     }
