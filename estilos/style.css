@@ -257,7 +257,6 @@
     /*Seção Contato*/
 
     footer {
-        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -278,16 +277,39 @@
         justify-content: space-between;
         gap: 30px;
         width: 100%;
-        height: 20vh;
     }
 
-    section#dados > div#contato, div#redes {
+    div#contato, div#redes {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        width: 25vw;
+        width: 39vw;
     }
 
     section#dados #linha {
         border: 1px solid aliceblue;
+    }
+
+    #divcontato, #divredes {
+        display: flex;
+        align-items: center;
+    }
+
+    #contato h2, #redes h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #divcontato span, #divredes a {
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    #divredes {
+        width: 115px;
+    }
+
+    #divredes:hover {
+        transform: translate(-2px, -2px);
+        transition-duration: 0.3s;
     }
