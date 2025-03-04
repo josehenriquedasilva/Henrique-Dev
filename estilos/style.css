@@ -139,7 +139,7 @@
         align-items: center;
     }
     
-    section#dev > div > p {
+    section#dev > div > h2 {
         margin-bottom: 30px;
         font-size: 1.7em;
         text-align: center;
@@ -204,6 +204,10 @@
         gap: 30px;
     }
 
+    #projetos h2 {
+        font-family: "Atkinson Hyperlegible Mono";
+    }
+
     #projetos > div {
         display: flex;
         flex-direction: row;
@@ -216,7 +220,8 @@
         border-radius: 20px;
     }
 
-    #projetos  img {
+
+    #projetos img {
         border-radius: 10px 0 0 10px;
         width: 19rem;
     }
@@ -230,6 +235,11 @@
 
     #text h3 {
         padding-bottom: 15px;
+        font-family: "Atkinson Hyperlegible Mono";
+    }
+
+    #p1:hover {
+        transform: translate(-5px -5px);
     }
 
     #text p {
@@ -252,7 +262,6 @@
         transition-duration: 0.5s;
         transform: translate(-2px, -2px);
     }
-
 
     /*Seção Contato*/
 
