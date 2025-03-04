@@ -20,7 +20,7 @@
         background-color: #0f0f0f;
     }
 
-    header, main {
+    header, main, footer {
         margin: auto;
         max-width: 1000px;
     }
@@ -264,6 +264,7 @@
         border-radius: 20px;
         padding: 10px;
         margin-bottom: 20px;
+        width: 90%;
     }
 
     section#informacoes {
