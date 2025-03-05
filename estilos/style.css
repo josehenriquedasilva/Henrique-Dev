@@ -27,7 +27,8 @@
     
     header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        position: relative;
         margin-top: 30px;
         width: 90%;
         border-radius: 20px;
@@ -66,6 +67,12 @@
 
 
     /*Seção Menu*/
+
+    header img {
+        width: 7rem;
+        position: absolute;
+        top: -28px;
+    }
 
     #menu {
         display: flex;
