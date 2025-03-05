@@ -65,10 +65,9 @@
         display: none;
     }
 
-
     /*Seção Menu*/
 
-    header img {
+    header img#logo {
         width: 7rem;
         position: absolute;
         top: -28px;
@@ -107,6 +106,10 @@
         display: none;
     }
 
+    #menu #icone {
+        width: 2rem;
+    }
+
     #menu2 {
         display: none;
     }
@@ -115,7 +118,7 @@
         display: flex;
         flex-direction: column;
         width: 17vw;
-        border-radius: 10px;
+        border-radius: 20px;
         background-color: #1d1d1d;
     }
 
