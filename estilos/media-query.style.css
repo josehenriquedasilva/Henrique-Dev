@@ -105,8 +105,16 @@
         height: 161px;
     }
 
+    #p2 img {
+        height: 395px;
+    }
+
     #p3 img {
         height: 365px;
+    }
+
+    #p3 > #text p {
+        height: 195px;
     }
 
     #p4 img {
